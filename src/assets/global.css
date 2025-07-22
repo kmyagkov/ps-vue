@@ -1,0 +1,23 @@
+:root {
+    --color-page-bg: #343D4B;
+    --color-card-bg: #222831;
+    --color-card-day-bg: #272E37;
+    --color-card-day-bg-invert: white;
+    --color-font: white;
+    --color-font-invert: black;
+    --font-family-medium: 500 22px "Montserrat", sans-serif;
+    --font-family-semibold: 600 22px "Montserrat", sans-serif;
+    --font-family-bold: 700 22px "Montserrat", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font: var(--font-family-medium);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: var(--color-font);
+    background: var(--color-page-bg);
+}
